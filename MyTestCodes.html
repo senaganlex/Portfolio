@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Test Code</title>
     <link rel="stylesheet" href="MyTestCodes.css">
 </head>
+
 <body>
 
     <header>
-        <h1>My Test Codes</h1>
+        <div class="menu-container">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        <h1>Welcome To My Portfolio</h1>
+        <div class="dropdown-menu" id="dropdownMenu">
+            <a href="MyInfo.html">My Info</a>
+            <a href="MyTestCodes.html">My Test Codes</a>
+            <a href="AboutUs.html">About Us</a>
+        </div>
     </header>
 
     <div id="fileUploadContainer">
