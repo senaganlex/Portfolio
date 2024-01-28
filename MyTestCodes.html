@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Activity</title>
-    <link rel="stylesheet" href="PortfolioActivityStyle.css">
-    <script src="PortfolioActivityScript.js" defer></script>
+    <title>My Test Code</title>
+    <link rel="stylesheet" href="MyTestCodes.css">
 </head>
 
 <body>
+
     <header>
         <div class="menu-container">
             <div class="menu-icon" onclick="toggleMenu()">
@@ -26,15 +26,22 @@
         </div>
     </header>
 
-    <main>
-        <section class="welcome-section">
-            <!-- rest of the content -->
-        </section>
+    <div id="fileUploadContainer">
+        <label for="fileInput" id="uploadLabel">
+            <span>Choose File</span>
+            <input type="file" id="fileInput" accept=".txt, .pdf, .docx" multiple>
+        </label>
+        <button id="uploadButton">Upload Files</button>
+    </div>
 
-        <section class="platform">
-            <!-- rest of the content -->
-        </section>
-    </main>
+    <ul id="fileList">
+    </ul>
+
+    <script src="MyTestCodes.js"></script>
+
+    <footer>
+        <a href="file:///D:/0-VISUAL%20STUDIO%20CODE/Home%20Page/PortfolioActivitySe%C3%B1agan.html" id="goBackButton">Go Back to Portfolio</a>
+    </footer>
+
 </body>
-
 </html>
